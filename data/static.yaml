@@ -1,0 +1,4 @@
+pe_status_check::indicator_exclusions:                                             
+  - 'S0001'                                                                        
+  - 'S0003'      
+  - 'S0022'                                                                  

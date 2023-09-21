@@ -1,2 +1,10 @@
 ---
 message: "This node is using common data"
+pe_status_Check::indiacator_exclusions: 
+  - 'S0001'
+  - 'S0003'
+
+plan_hierarchy:
+  - name: "Static data"
+    path: "static.yaml"
+    data_hash: yaml_data   
