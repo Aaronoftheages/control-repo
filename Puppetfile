@@ -20,5 +20,7 @@ mod 'puppetlabs-cd4pe', '1.1.0'
 mod 'puppetlabs-powershell', '6.0.0'
 mod 'puppetlabs-pwshlib', '1.0.0'
 mod 'puppetlabs-reboot', '5.0.0'
-mod 'puppetlabs-pe_status_check', '4.0.1'
+mod 'puppetlabs/pe_status_check',
+  git: 'https://github.com/Aaronoftheages/puppetlabs-pe_status_check.git',
+  branch: 'SUP-4714_Cannot_Compute_pe_status_check_hash_when_log_files_do_not_exist'
 mod 'puppetlabs-support_tasks', '5.0.0'
