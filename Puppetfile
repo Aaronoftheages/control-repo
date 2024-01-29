@@ -22,7 +22,7 @@ mod 'puppetlabs-pwshlib', '1.0.0'
 mod 'puppetlabs-reboot', '5.0.0'
 mod 'puppetlabs-pe_status_check', '4.1.0'
 mod 'puppetlabs-support_tasks', '5.0.0'
-mod 'puppetlabs-puppetdb', 
+mod 'puppetlabs-pe_databases', 
   git: 'https://github.com/Aaronoftheages/puppetlabs-pe_databases',
   branch: 'SUP-4666_pg_repack_enable_debug_mode'
 mod 'puppetlabs-postgresql', '10.0.3'
