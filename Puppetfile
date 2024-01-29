@@ -20,7 +20,11 @@ mod 'puppetlabs-cd4pe', '1.1.0'
 mod 'puppetlabs-powershell', '6.0.0'
 mod 'puppetlabs-pwshlib', '1.0.0'
 mod 'puppetlabs-reboot', '5.0.0'
-mod 'puppetlabs/pe_status_check',
-  git: 'https://github.com/Aaronoftheages/puppetlabs-pe_status_check.git',
-  branch: 'SUP-4714_Cannot_Compute_pe_status_check_hash_when_log_files_do_not_exist'
+mod 'puppetlabs-pe_status_check', '4.1.0'
 mod 'puppetlabs-support_tasks', '5.0.0'
+mod 'puppetlabs-puppetdb', 
+  git: 'https://github.com/Aaronoftheages/puppetlabs-pe_databases',
+  branch: 'SUP-4666_pg_repack_enable_debug_mode'
+mod 'puppetlabs-postgresql', '10.0.3'
+mod 'puppetlabs-firewall', '7.0.2'
+mod 'puppet-systemd', '6.3.0'
