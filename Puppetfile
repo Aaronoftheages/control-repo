@@ -20,7 +20,9 @@ mod 'puppetlabs-cd4pe', '1.1.0'
 mod 'puppetlabs-powershell', '6.0.0'
 mod 'puppetlabs-pwshlib', '1.0.0'
 mod 'puppetlabs-reboot', '5.0.0'
-mod 'puppetlabs-pe_status_check', '4.1.0'
+mod 'puppetlabs-pe_status_check', 
+  git: 'https://github.com/bastelfreak/puppetlabs-pe_status_check/tree/plans',
+  branch: 'plans'
 mod 'puppetlabs-support_tasks', '5.0.0'
 mod 'puppetlabs-pe_databases', 
   git: 'https://github.com/Aaronoftheages/puppetlabs-pe_databases',
